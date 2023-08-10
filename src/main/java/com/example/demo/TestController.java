@@ -11,6 +11,11 @@ public class TestController {
 		return "Application is started";
 	}
 
+	@GetMapping("/hello/two")
+	public String getDemo() {
+		return "Application is started two";
+	}
+
 	@GetMapping("/hello/three")
 	public String getDemo() {
 		return "Application is started - three";
