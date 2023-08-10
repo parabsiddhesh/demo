@@ -5,15 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-	
-	@GetMapping("/hello")
-	public String getDemo() {
-		return "Application is started";
-	}
 
-	@GetMapping("/hello/two")
-	public String getDemo() {
-		return "Application is started two";
-	}
+    @GetMapping("/hello/new")
+    public String getDemo() {
+        return "Application is started";
+    }
 
 }
